@@ -1,21 +1,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>org.openmrs.module</groupId>
-		<artifactId>	<id>obsconverter</id></artifactId>
-		<version>	<version>0.1</version>-SNAPSHOT</version>
-	</parent>
-	<groupId>org.openmrs.module</groupId>
-	<artifactId>	<id>obsconverter</id>-omod</artifactId>
-	<packaging>jar</packaging>
-	<name>	<name>Obs Converter</name> OMOD</name>
-	<description>OpenMRS module project for 	<name>Obs Converter</name></description>
+    <parent>
+        <groupId>org.openmrs.module</groupId>
+        <artifactId>obsconverter</artifactId>
+        <version>0.2-SNAPSHOT</version>
+    </parent>
+
+    <groupId>org.openmrs.module</groupId>
+    <artifactId>obsconverter-omod</artifactId>
+    <packaging>jar</packaging>
+    <name>Obs Converter OMOD</name>
+    <description>OpenMRS module project for for Obs Converter</description>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.openmrs.module</groupId>
-			<artifactId>	<id>obsconverter</id>-api</artifactId>
+			<artifactId>obsconverter-api</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
 		
